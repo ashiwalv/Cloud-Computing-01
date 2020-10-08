@@ -2,7 +2,7 @@
 
 ## JKU Linz Winter Semester 2020
 
-## Team Member
-### 1. Virendra Ashiwal
-### 2. Muddasir Shakil
-### 3. Bahman Bahman-Zangi
+### Team Member
+#### 1. Virendra Ashiwal
+#### 2. Muddasir Shakil
+#### 3. Bahman Bahman-Zangi
