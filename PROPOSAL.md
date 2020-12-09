@@ -24,3 +24,14 @@ The kubernetes is proposed as the platform to deploy and manage the indpendent a
 
 1. Documenation of the project in a report format
 2. Presentation of the demo application
+
+## General Steps
+
+Since we going to use git for code base and Travis for CI the following steps are wished to be accomplished:
+
+1. Define a docker file for application build
+2. Run the app on the docker hub
+3. Run multiple tests against the build
+4. Load balancing the application using Kubernetes (scale)
+
+it is open decision to make if the docker hub host is either be local or services like google cloud, AWS , Azure , docker hub etc.  
