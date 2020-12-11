@@ -35,3 +35,8 @@ Since we going to use git for code base and Travis for CI the following steps ar
 4. Load balancing the application using Kubernetes (scale)
 
 it is an open decision to make if the docker hub host is either be local or services like google cloud, AWS, Azure, docker hub, etc.  
+
+## Overall conceptual diagram
+<img src="https://user-images.githubusercontent.com/3264554/101938469-a7935e00-3be3-11eb-9a45-65e6ec0cd36e.JPG" width=70% height=70%>
+
+
