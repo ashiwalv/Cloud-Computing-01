@@ -10,7 +10,9 @@ A Local Discovery Server (LDS) is implemented to support the auto-discovery and 
 
 The Kubernetes is proposed as the platform to deploy and manage the independent applications running as micro-services. These micro-services will be developed and deployed in dedicated containers. Which enables faster and decoupled developments of modules. 
 
-### Add figure here and remove this line
+### Overall conceptual diagram
+<img src="https://user-images.githubusercontent.com/3264554/101938469-a7935e00-3be3-11eb-9a45-65e6ec0cd36e.JPG" width=70% height=70%>
+
 
 ## Objectives
 
@@ -36,7 +38,7 @@ Since we going to use git for code base and Travis for CI the following steps ar
 
 it is an open decision to make if the docker hub host is either be local or services like google cloud, AWS, Azure, docker hub, etc.  
 
-## Overall conceptual diagram
-<img src="https://user-images.githubusercontent.com/3264554/101938469-a7935e00-3be3-11eb-9a45-65e6ec0cd36e.JPG" width=70% height=70%>
+
+
 
 
