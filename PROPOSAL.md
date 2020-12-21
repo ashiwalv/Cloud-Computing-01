@@ -48,6 +48,7 @@ Since we going to use git for code base and Travis for CI the following steps ar
 10. Machine-1_OPC_UA_Client's Pod forwards the data from Machine-1's Pod to Display_Manager.
 11. Display_Manager sends the request to Dashboard to add Machine-1's visualization at the Display_Manager
 12. Dashboard displays visualization of Machine_1 (In this case Visualization of Temperature sensor)
+13. Communication among PODs is done via Services (Feature from K8). Mostly REST based.
 
 
 it is an open decision to make if the docker hub host is either be local or services like google cloud, AWS, Azure, docker hub, etc.  
