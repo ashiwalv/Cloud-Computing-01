@@ -10,10 +10,6 @@ A Local Discovery Server (LDS) is implemented to support the auto-discovery and 
 
 The Kubernetes is proposed as the platform to deploy and manage the independent applications running as micro-services. These micro-services will be developed and deployed in dedicated containers. Which enables faster and decoupled developments of modules. 
 
-### Overall conceptual diagram
-<img src="https://user-images.githubusercontent.com/3264554/101938469-a7935e00-3be3-11eb-9a45-65e6ec0cd36e.JPG" width=70% height=70%>
-
-
 ## Objectives
 
 1. Implementation of interfaces and information models for the mock-up production modules hosted on OPC UA servers.
@@ -31,10 +27,28 @@ The Kubernetes is proposed as the platform to deploy and manage the independent 
 
 Since we going to use git for code base and Travis for CI the following steps are wished to be accomplished:
 
-1. Define a docker file for application build
-2. Run the app on the docker hub
-3. Run multiple tests against the build
-4. Load balancing the application using Kubernetes (scale)
+1. Kubernetes Platform is started
+2. In the Kubernetes Platform a Cluster of Modular Factory is Started
+3. In the Cluster, three Pods are started which are: LDS_Server, Display_Manager, Dashboard in two Nodes (as seen in the image)
+
+![1](https://user-images.githubusercontent.com/3264554/102824835-dd072b00-43dd-11eb-9b1c-6f7341deab8c.png)
+
+4. Starting of Machine-1's Pod (A TemperatureSensorModule) is requested to API Server of Ctrl Plane
+
+![3](https://user-images.githubusercontent.com/3264554/102827018-1a6db780-43e2-11eb-9857-3210f395ef4d.png)
+
+5. Machine-1's Pod Register itself on LDS_Server
+6. LDS_Server sends the endpoints of the new Machine-1's Pod to Display_Manager, 
+7. Display_Manager sends a request to Display_Manager to start  a Machine-1_OPC_UA_Client's Pod with the endpoints
+8. Scheduler schedule the new Pod at Node 3 and Kublet starts it.
+
+![2](https://user-images.githubusercontent.com/3264554/102827012-1772c700-43e2-11eb-8c30-53f117ca0997.png)
+
+9. Machine-1_OPC_UA_Client's Pod establishes the connection with Machine-1's Pod and starts OPC UA communication
+10. Machine-1_OPC_UA_Client's Pod forwards the data from Machine-1's Pod to Display_Manager.
+11. Display_Manager sends the request to Dashboard to add Machine-1's visualization at the Display_Manager
+12. Dashboard displays visualization of Machine_1 (In this case Visualization of Temperature sensor)
+
 
 it is an open decision to make if the docker hub host is either be local or services like google cloud, AWS, Azure, docker hub, etc.  
 
