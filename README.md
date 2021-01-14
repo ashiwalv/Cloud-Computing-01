@@ -11,11 +11,11 @@
 #### To RUN Integration App
 docker run -d -p 5000:5000 sdmhmi/spa
 
+#### To RUN Conveyor App
+docker run -d -p 8081:8081 sdmhmi/conveyor
+
 #### To RUN Sorting App
 docker run -d -p 8082:8082 sdmhmi/sorting
 
 #### To RUN Picking App
 docker run -d -p 8083:8083 sdmhmi/picking
-
-#### To RUN Conveyor App
-docker run -d -p 8081:8081 sdmhmi/conveyor
