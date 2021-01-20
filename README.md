@@ -2,6 +2,8 @@
 
 ## Topic --> Web based HMI: Monolithic to microservice
 
+Domain: Industrial Automation
+
 Here we converted a monilithic web based HMI application to microservice based application and orchestrate them via kubernetes.
 
 ### Monolithic Web based HMI
