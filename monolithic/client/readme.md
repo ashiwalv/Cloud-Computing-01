@@ -3,3 +3,6 @@ This is the frontend application for the web based HMI. It provides the operatin
 
 ## How to Run ##
 npm run start
+
+# Access #
+<pre> <font color="#00AAAA">http://localhost:</font><font color="#00AAAA"><b>8080</b></font><font color="#00AAAA">/</font> </pre>
