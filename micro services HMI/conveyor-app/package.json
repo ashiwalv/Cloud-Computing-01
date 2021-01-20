@@ -1,0 +1,60 @@
+{
+  "name": "conveyor-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --port 8081",
+    "sorting": "cd ~/work/SDMHmi/HMI/sorting-app && npm run serve",
+    "picking": "cd ~/work/SDMHmi/HMI/picking-app && npm run serve",
+    "home": "cd ~/work/SDMHmi/HMI/home-app && npm run serve",
+    "conveyor": "vue-cli-service serve --port 8081",
+    "start": "npm run conveyor & npm run sorting & npm run picking & npm run home"
+  },
+  "dependencies": {
+    "all": "0.0.0",
+    "axios": "^0.21.1",
+    "bootstrap-vue": "^2.6.1",
+    "core-js": "^3.6.4",
+    "cors": "^2.8.5",
+    "single-spa-vue": "^1.8.1",
+    "systemjs-webpack-interop": "^1.1.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vue-speedometer": "^1.2.1",
+    "vue-sse": "^1.0.2",
+    "vuejs-dialog": "^1.4.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.3",
+    "@vue/cli-plugin-eslint": "^4.2.3",
+    "@vue/cli-service": "^4.2.3",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.1",
+    "vue-cli-plugin-single-spa": "^1.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/no-unused-components": "off",
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

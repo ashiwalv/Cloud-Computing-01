@@ -1,0 +1,136 @@
+#app {
+    margin: 5px;
+}
+
+label {
+    margin: 0;
+}
+
+button {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.factory-item {
+    padding: 5px;
+}
+
+.maom-image {
+    opacity: 0.8;
+    width: 80px;
+}
+
+.image-button {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.sensor {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    display: inline-block;
+    opacity: 0.4;
+}
+
+.dg-main-content {
+    max-width: 550px;
+    margin-top: 300px;
+}
+
+table {
+    border: none;
+}
+
+tr {
+    border-spacing: 0px;
+}
+
+.warning {
+    color: orange;
+    font-size: large;
+    padding: 0 10px;
+}
+
+.supply {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    width: 500px;
+    /* grid-area: supply;
+    grid-column: 1/3; */
+}
+
+.sorting {
+    width: 250px;
+    position: absolute;
+    top: 285px;
+    /* grid-area: sorting;
+    grid-column: 3;
+    grid-row: 1/3; */
+}
+
+.header {
+    display: inline;
+}
+
+.picking {
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 513px;
+    width: 250px;
+    /* float: right; */
+    /* grid-area: picking;
+    grid-column: 1;
+    grid-row: 2/4; */
+}
+
+.rack {
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+/* .grid-container { */
+
+/* display: grid; */
+
+/* grid-gap: 5px; */
+
+/* grid-template-rows: auto auto auto; */
+
+/* grid-template-rows: 200px 350px 200px; */
+
+/* grid-template-columns: 250px 250px 250px; */
+
+/* grid-template-areas: 'supply supply sorting'; */
+
+/* background-color: #2196F3; */
+
+/* } */
+
+.grid-container>div {
+    /* position: absolute; */
+    background-color: #DCDCDC;
+    padding: 20px 0;
+    border: 1px solid white;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.flipped {
+    transform: scale(-1, 1);
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.container>* {
+    margin-right: 5px;
+}
