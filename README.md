@@ -41,7 +41,7 @@ metadata:
   name: cc-ns
  ```
 
-4) After creating namespace, we created a deployment and service yaml file together via `main-deployment.yaml`
+4) After creating namespace, we created a deployment and service yaml file together via `main-deployment.yaml`. Here we would like to access the dashboard from outside of cluster enviorement so we created a `LoadBalancer` serviceType for spa container and for others we kept them as `ClusterIP` servicetype.
    - Path `Cloud-Computing-01/deployment/main-deployment.yaml`
 <details><summary>YAML File</summary>
 <p>
