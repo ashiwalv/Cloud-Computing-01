@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment-spa
-  namespace: 
+  namespace: cc-ns
 spec:
   replicas: 1
   selector:
@@ -40,7 +40,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment-conveyor
-  namespace:
+  namespace: cc-ns
 spec:
   replicas: 1
   selector:
@@ -77,9 +77,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment-sorting
-  namespace:
+  namespace: cc-ns
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: sorting
@@ -116,9 +116,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: deployment-picking
-  namespace:
+  namespace: cc-ns
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: picking
