@@ -274,13 +274,6 @@ Output:
 ![05_2_HMI](https://user-images.githubusercontent.com/3264554/105180103-6bc8ae00-5b2a-11eb-8f59-6e2a3e65c8d4.png)
 
 
-### Team Member
-|  S.No | Name   | Matrikulation Number   |
-|---|---|---|
-|  1|Virendra Ashiwal    |  k11926096 |
-|  2|Muddasir Shakil     | k11923726  |
-|  3|Bahman Bahman-Zangi |   |
-
 ### Issues while working on the project
 1. Initially we wanted to have OPC UA Server and client communication between the PODS (Web based HMI) but somehow we could not able to make it run. We created the Docker images with OPC UA Client and Server but there were issues with certificates and connections.
 2. Woking on local machine for implemnetation was too much headache. PC were crashing a lot!
@@ -303,5 +296,11 @@ Total 49 Hours
 
 
 
+### Team Member
+|  S.No | Name   | Matrikulation Number   |
+|---|---|---|
+|  1|Virendra Ashiwal    |  k11926096 |
+|  2|Muddasir Shakil     | k11923726  |
+|  3|Bahman Bahman-Zangi |   |
 
 
