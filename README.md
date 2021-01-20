@@ -1,6 +1,8 @@
-# Group Project for "Special Topics - Cloud Computing from an Engineering Perspective"
+# Group Project for "Special Topics - Cloud Computing"
 
-Here we converted a monilithic web based HMI application to microservice based application and orchestrated via k8.
+## Topic --> Web based HMI: Monolithic to microservice
+
+Here we converted a monilithic web based HMI application to microservice based application and orchestrate them via kubernetes.
 
 ### Monolithic Web based HMI
 
@@ -14,14 +16,14 @@ This is the frontend application for the web based HMI. It provides the operatin
 This is the backend server for the monolithic web application. It works as an HMI server. It connects the distributed OPC UA servers at the shopfloor to the Frontend application. This server has in integrated OPC UA client that connects to OPC UA server. 
 
 
-### Strategy
+### Strategy: Monolithic to microservice
 1) Here we want to create a microservice for each of the HMI Server and one seperate for Dashboard --> 4 Microservices
     HMI Web Server --> `sdmhmi/conveyor`, `sdmhmi/picking`, `sdmhmi/sorting` <br/>
     Dashboard      --> `sdmhmi/spa`
     
 2) We are using minikube at local machine to create k8 cluster
 
-### Steps to follow:
+### Steps to follow: Monolithic to microservice
 1) Created a docker file 
    - Path `Cloud-Computing-01/micro services HMI/root-html-file/Dockerfile`
    
@@ -274,5 +276,5 @@ Output:
 |  S.No | Name   | Matrikulation Number   |
 |---|---|---|
 |  1|Virendra Ashiwal    |  k11926096 |
-|  2|Muddasir Shakil     |   |
+|  2|Muddasir Shakil     | k11923726  |
 |  3|Bahman Bahman-Zangi |   |
