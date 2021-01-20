@@ -280,3 +280,15 @@ Output:
 |  1|Virendra Ashiwal    |  k11926096 |
 |  2|Muddasir Shakil     | k11923726  |
 |  3|Bahman Bahman-Zangi |   |
+
+### Time spent on project
+|  S.No | Name   | Hours   |
+|---|---|---|
+|  1|Proposal discussion    | 3 |
+|  2|Proposal writing and update     | 6 |
+|  3|Break down of Monolithic applications and <br> converting them into images| 5 |
+|  4|Implementation in Kubernetes| 15 |
+|  5|Learning and tutorial hands on| 20 |
+
+
+
