@@ -1,0 +1,1 @@
+minikube service service-spa
