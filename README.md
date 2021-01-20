@@ -270,25 +270,7 @@ Output:
 ![05_2_HMI](https://user-images.githubusercontent.com/3264554/105180103-6bc8ae00-5b2a-11eb-8f59-6e2a3e65c8d4.png)
 
 
-
- 
-
-## JKU Linz Winter Semester 2020
-
 ### Team Member
 #### 1. Virendra Ashiwal
 #### 2. Muddasir Shakil
 #### 3. Bahman Bahman-Zangi
-
-
-#### To RUN Integration App
-docker run -d -p 5000:5000 sdmhmi/spa
-
-#### To RUN Conveyor App
-docker run -d -p 8081:8081 sdmhmi/conveyor
-
-#### To RUN Sorting App
-docker run -d -p 8082:8082 sdmhmi/sorting
-
-#### To RUN Picking App
-docker run -d -p 8083:8083 sdmhmi/picking
