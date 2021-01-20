@@ -281,14 +281,26 @@ Output:
 |  2|Muddasir Shakil     | k11923726  |
 |  3|Bahman Bahman-Zangi |   |
 
-### Time spent on project
+### Issues while working on the project
+1. Initially we wanted to have OPC UA Server and client communication between the PODS (Web based HMI) but somehow we could not able to make it run. We created the Docker images with OPC UA Client and Server but there were issues with certificates and connections.
+2. Woking on local machine for implemnetation was too much headache. PC were crashing a lot!
+3. Initially we tried with KinD but later switched with minkube. Because minikube have internal a command to call a POD with NodePort and somehow we could not make it run with KinD.
+4. We were really amazed by the manual work of the "Port-Forwarding" and could not find a way to automate that --> This part was really annoying and took so much time to google.
+
+
+### Time spent on project 
+
+Total 40 Hours
+
 |  S.No | Name   | Hours   |
 |---|---|---|
 |  1|Proposal discussion    | 3 |
 |  2|Proposal writing and update     | 6 |
 |  3|Break down of Monolithic applications and <br> converting them into images| 5 |
-|  4|Implementation in Kubernetes| 15 |
+|  4|Implementation in Kubernetes <br>(Including Erros and crashes)| 15 |
 |  5|Learning and tutorial hands on| 20 |
+
+
 
 
 
