@@ -285,7 +285,8 @@ Output:
 1. Initially we wanted to have OPC UA Server and client communication between the PODS (Web based HMI) but somehow we could not able to make it run. We created the Docker images with OPC UA Client and Server but there were issues with certificates and connections.
 2. Woking on local machine for implemnetation was too much headache. PC were crashing a lot!
 3. Initially we tried with KinD but later switched with minkube. Because minikube have internal a command to call a POD with NodePort and somehow we could not make it run with KinD.
-4. We were really amazed by the manual work of the "Port-Forwarding" and could not find a way to automate that --> This part was really annoying and took so much time to google.
+4. We also wanted to use "Ingress" so that we can use alias as IP address but there were issue at the time of Installation of Ingress controller with "timeout".
+5. We were really amazed by the manual work of the "Port-Forwarding" and could not find a way to automate that --> This part was really annoying and took so much time to google.
 
 
 ### Time spent on project 
