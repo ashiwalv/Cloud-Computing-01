@@ -262,8 +262,15 @@ Output:
  ```console
     minikube service service-spa -n cc-ns
   ```
+![03_start_spa](https://user-images.githubusercontent.com/3264554/105180112-6e2b0800-5b2a-11eb-9613-c41e15585a54.GIF)
+
+
+ 8) Output in broswer
  
- 
+![05_2_HMI](https://user-images.githubusercontent.com/3264554/105180103-6bc8ae00-5b2a-11eb-8f59-6e2a3e65c8d4.png)
+
+
+
  
 
 ## JKU Linz Winter Semester 2020
