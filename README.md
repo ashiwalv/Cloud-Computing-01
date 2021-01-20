@@ -290,7 +290,7 @@ Output:
 
 ### Time spent on project 
 
-Total 40 Hours
+Total 49 Hours
 
 |  S.No | Name   | Hours   |
 |---|---|---|
