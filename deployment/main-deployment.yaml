@@ -23,6 +23,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: service-spa
+  namespace: cc-ns
   labels:
     app: spa
 spec:
@@ -61,6 +62,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: service-conveyor
+  namespace: cc-ns
   labels:
     app: conveyor
 spec:
@@ -99,6 +101,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: service-sorting
+  namespace: cc-ns
   labels:
     app: sorting
 spec:
@@ -138,6 +141,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: service-picking
+  namespace: cc-ns
   labels:
     app: picking
 spec:

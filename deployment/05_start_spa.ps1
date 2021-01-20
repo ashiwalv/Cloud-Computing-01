@@ -1,1 +1,1 @@
-minikube service service-spa
+minikube service service-spa -n cc-ns
