@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <script>
+        window.onload = function () {
+            setTimeout(() => {
+                console.log("init");
+                const source = new EventSource("http://localhost:3000/update");
+
+                source.onmessage = function (msg) {
+                    console.log(msg)
+                };
+                source.onopen = function() {
+                    console.log("now open");
+                }
+            }, 1000);
+
+
+            // eventSource.onmessage = (e) => {
+            //     window.console.log("test");
+            //     console.log(e);
+            // }
+
+            // eventSource.addEventListener('message', (e) => {
+            //     window.console.log("received message");
+            //     console.log("received message");
+            // });
+
+            // source.addEventListener('message', (e) => {
+            //     console.log("success");
+            // });
+
+            // source.addEventListener("message", function (event) {
+            //     console.log("hello");
+            // });
+        }
+    </script>
+</head>
+
+<body>
+
+
+    hello world
+
+</body>
+
+</html>

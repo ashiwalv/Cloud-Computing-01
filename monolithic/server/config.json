@@ -1,0 +1,13 @@
+{
+    "Supply": {
+        "_url": "localhost:4840",
+        "browsePath": "/Objects/1:ProductionSystem/1:Conv_Motor",
+        "direction": "/Objects/1:ProductionSystem/1:Conv_Motor/1:Direction",
+        "setpoint": "/Objects/1:ProductionSystem/1:Conv_Motor/1:SetPoint",
+        "speed": "/Objects/1:ProductionSystem/1:Conv_Motor/1:Speed",
+        "start_stop": "/Objects/1:ProductionSystem/1:Conv_Motor/1:Start_Stop",
+        "state": "/Objects/1:ProductionSystem/1:Conv_Motor/1:State",
+        "unit": "/Objects/1:ProductionSystem/1:Conv_Motor/1:Unit",
+        "fwd_rev": "/Objects/1:ProductionSystem/1:Conv_Motor/1:Fwd_Rev"
+    }
+}

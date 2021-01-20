@@ -1,0 +1,48 @@
+#app {
+    margin: 5px;
+}
+
+label {
+    margin: 0;
+}
+
+button {
+    background-color: gray;
+    border: 2px solid gray;
+}
+
+.factory-item {
+    padding: 5px;
+}
+
+.maom-image {
+    opacity: 0.8;
+    width: 80px;
+}
+
+.image-button {
+    margin: 5px;
+    border: none;
+    background-color: transparent;
+}
+
+.sensor {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    display: inline-block;
+    opacity: 0.4;
+}
+
+.dg-main-content {
+    max-width: 550px;
+    margin-top:300px;
+}
+
+table {
+    border: none;
+}
+
+tr {
+    border-spacing: 0px;
+}

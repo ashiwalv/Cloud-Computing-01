@@ -1,0 +1,28 @@
+{
+  "name": "vueroute",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "jquery": "^3.4.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.0.7",
+    "vue-speedometer": "^1.0.1",
+    "vue-sse": "^1.0.2",
+    "vuejs-dialog": "^1.4.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.1.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
