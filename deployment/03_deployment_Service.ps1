@@ -1,1 +1,1 @@
-kubectl apply -f Deployment-all.yaml
+kubectl apply -f main-deployment.yaml
